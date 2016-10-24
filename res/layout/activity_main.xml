@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="#ffe699"
+	android:padding="4dp" >
+	    
+	<EditText
+	    android:id="@+id/etNoteContent"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textAppearance="?android:textAppearanceSmall"
+	    android:textColor="#aa000000"
+	    android:clickable="true"
+	    android:hint="@string/hint"
+	    android:inputType="textMultiLine"
+	    android:padding="8dp"
+	    android:background="@drawable/edit_text_background" />
+    
+</RelativeLayout>

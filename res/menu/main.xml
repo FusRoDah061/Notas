@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.projetojn.MainActivity" >
+
+    <item
+        android:id="@+id/action_salvar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_salvar"/>
+    
+     <item
+        android:id="@+id/action_limpar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_limpar"/>
+</menu>
